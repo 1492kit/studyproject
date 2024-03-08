@@ -5,10 +5,10 @@
   "author": "",
   "contributors": [],
   "private": true,
-  "license": "",
+  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/exercism/javascript"
+    "url": "git+https://github.com/exercism/javascript.git"
   },
   "devDependencies": {
     "@babel/core": "^7.22.10",
@@ -25,10 +25,16 @@
     "prettier": "^3.0.2",
     "shelljs": "^0.8.5"
   },
-  "dependencies": {},
   "scripts": {
     "test": "jest ./*",
     "watch": "jest --watch ./*",
     "lint": "eslint ."
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/exercism/javascript/issues"
+  },
+  "homepage": "https://github.com/exercism/javascript#readme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": []
 }
